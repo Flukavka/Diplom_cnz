@@ -1,0 +1,60 @@
+.container {
+    @media (max-width: 1024px) {
+        max-width: 972px;
+    }
+}
+
+.header {
+    @media (max-width: 1024px) {
+        padding: 0;
+    }
+}
+
+.nav-block {
+    padding: 8px 8px;
+
+    @media (max-width: 1024px) {
+        padding: 8px 0;
+    }
+
+    @media (max-width: 768px) {
+        padding: 8px 18px;
+    }
+
+    @media (max-width: 320px) {
+        padding: 0 1px;
+    }
+
+    &-myWork {
+        margin-left: 10px;
+    }
+
+    &-myWork-menu {
+        border: none;
+        filter: drop-shadow(2px 2px 2px rgba(103, 25, 73, 0.04));
+    }
+
+    &-menu {
+        margin-left: 8px;
+    }
+
+    &-button {
+        border: none;
+    }
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    height: 6px;
+    width: 6px;
+    border: 1px #671949 solid;
+    border-radius: 100%;
+
+    @media (max-width: 1024px) {
+        margin-left: 0.15em;
+        vertical-align: 0.15em;
+    }
+}

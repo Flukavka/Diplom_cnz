@@ -1,0 +1,335 @@
+@import "_fonts.scss";
+@import "_header.scss";
+@import "_colors.scss";
+@import "_game.scss";
+@import "_mySkill.scss";
+@import "_link.scss";
+@import "_carousel.scss";
+@import "_myWork.scss";
+@import "_workPage.scss";
+@import "_button.scss";
+@import "footer.scss";
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.main-block {
+    background-image: url(../image/bcgMain.jpg);
+    height: 390px;
+    width: 100%;
+    padding-top: 56px;
+    margin-top: 24px;
+
+    @media (max-width: 1024px) {
+        height: 318px;
+    }
+
+    @media (max-width: 490px) {
+        height: 394px;
+    }
+
+    @media (max-width: 768px) {
+        margin-top: 34px;
+    }
+
+    @media (max-width: 500px) {
+        padding-top: 16px;
+    }
+
+    &-up {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        padding: 23px 21px;
+        margin-left: 8px;
+        max-width: 632px;
+
+        @media (max-width: 1024px) {
+            margin-left: 16px;
+        }
+
+        @media (max-width: 768px) {
+            margin-left: 33px;
+        }
+
+        @media (max-width: 320px) {
+            margin-left: 6px;
+            padding: 16px 8px;
+            margin-top: 22px;
+        }
+
+        &-headding {
+            color: $lightGreen;
+            margin-bottom: 0;
+
+            @media (max-width: 1024px) {
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 39px;
+            }
+
+            @media (max-width: 600px) {
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+    }
+
+    &-down {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        padding: 16px 21px;
+        margin-top: 24px;
+        margin-left: 8px;
+        max-width: 823px;
+
+        @media (max-width: 1024px) {
+            margin-left: 16px;
+            margin-top: 32px;
+            max-width: 667px;
+        }
+
+        @media (max-width: 768px) {
+            margin-left: 33px;
+        }
+
+        @media (max-width: 320px) {
+            margin-left: 8px;
+            padding: 24px 6px;
+            max-width: 304px;
+        }
+
+        &-paragraph {
+            color: $white;
+            font-size: 20px;
+            line-height: 1.2;
+            margin-bottom: 0;
+
+            @media (max-width: 1024px) {
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+}
+
+.mySkill {
+    margin-top: 72px;
+
+    @media(max-width: 1024px) {
+        padding: 0 15px 0 15px;
+    }
+
+    @media (max-width: 768px) {
+        margin-left: 0;
+        margin-top: 56px;
+        margin-bottom: 30px;
+    }
+
+    @media (max-width: 320px) {
+        padding: 0 8px;
+    }
+
+    &-header {
+        max-width: 735px;
+        max-height: 71px;
+        margin-top: 24px;
+        margin-left: 90px;
+        padding: 16px 17px;
+
+        &-heading {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 39px;
+        }
+
+        @media(max-width: 1024px) {
+            max-width: 100%;
+            max-height: 61px;
+            margin-top: 0;
+            margin-left: 0;
+            padding: 15px 0 17px 38px;
+            margin-top: 8px;
+
+
+            &-heading {
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            margin: 2px;
+            padding: 16px 14px;
+
+            &-heading {
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+    }
+
+
+
+    &-game {
+        margin-left: 42px;
+    }
+
+    &-item {
+
+        &-header {
+            margin-left: 31px;
+            margin-top: 14px;
+
+            @media (max-width: 1024px) {
+                margin-left: 0;
+                margin-top: 0;
+            }
+
+            &-css {
+                margin-left: 106px;
+
+                @media (max-width: 1024px) {
+                    margin-left: 0;
+                    margin-top: 38px;
+                }
+
+                @media (max-width: 768px) {
+                    margin-top: 22px;
+                }
+
+                @media (max-width: 320px) {
+                    margin-top: 38px;
+                }
+            }
+
+
+            &-image {
+
+                &-css {
+                    @media (max-width: 768px) {
+                        margin-left: 1px;
+                        margin-right: 6px;
+                    }
+
+                    @media (max-width: 320px) {
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                }
+
+                &-js {
+                    margin-top: 57px;
+
+                    @media (max-width: 1024px) {
+                        margin-top: 49px;
+                    }
+
+                    @media (max-width: 768px) {
+                        margin-top: 26px;
+                    }
+
+                    @media (max-width: 320px) {
+                        margin-top: 16px;
+                    }
+                }
+            }
+
+            &-heading {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+
+                @media (max-width: 1024px) {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                &-css {
+                    margin-left: 5px;
+                    margin-bottom: 0;
+                    margin-top: 3px;
+
+                    @media (max-width: 320px) {
+                        margin-left: 3px;
+                    }
+                }
+
+                &-js {
+                    margin-top: 66px;
+                    margin-left: 7px;
+
+                    @media (max-width: 1024px) {
+                        margin-top: 59px;
+                        margin-left: 12px;
+                    }
+
+                    @media (max-width: 768px) {
+                        margin-top: 33px;
+                        margin-left: 7px;
+                    }
+
+                    @media (max-width: 320px) {
+                        margin-top: 24px;
+                    }
+                }
+            }
+
+            &-paragraph {
+                letter-spacing: 0.01em;
+                font-size: 16px;
+                line-height: 19px;
+
+                &-css {
+                    margin: 16px 0 0 106px;
+                }
+
+                &-js {
+                    margin-left: 33px;
+                    margin-top: 11px;
+                    max-width: 940px;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: 0;
+
+                    &-css {
+                        margin: 15px 145px 0 0;
+                        max-width: 781px;
+                    }
+
+                    &-js {
+                        margin-left: 0;
+                        margin-top: 6px;
+                        max-width: 781px;
+                    }
+                }
+
+                @media (max-width: 768px) {
+
+                    &-js {
+                        max-width: 496px;
+                    }
+                }
+
+                @media (max-width: 600px) {
+                    max-width: 500px;
+                }
+
+                @media (max-width: 320px) {
+                    margin: 14px 0 0;
+                }
+            }
+        }
+    }
+}
+
+#hr {
+    color: $gray;
+    height: 1px;
+    max-width: 1100px;
+}

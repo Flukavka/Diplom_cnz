@@ -1,0 +1,122 @@
+.work {
+
+    &-header {
+        background: $opacityGray;
+        border-radius: 4px;
+        color: $eggplant;
+        padding: 16px 0 16px 25px;
+        margin-top: 56px;
+        margin-bottom: 56px;
+
+        &-heading {
+            margin: 0;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 39px
+        }
+
+        @media (max-width: 768px) {
+            margin-top: 32px;
+            margin-bottom: 40px;
+
+            &-heading {
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+    }
+
+    &-wrapper:last-child {
+        margin-bottom: 121px;
+
+        @media (max-width: 768px) {
+            margin-bottom: 64px;
+        }
+    }
+
+    &-card {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+
+        @media (max-width: 320px) {
+            &-image {
+                align-self: center;
+            }
+        }
+
+
+        @media(max-width: 600px) {
+            flex-direction: column;
+        }
+
+        &-description {
+            margin-left: 32px;
+
+            @media(max-width: 600px) {
+                margin-left: 0;
+            }
+
+            &-head {
+                display: flex;
+
+                >img {
+                    margin-right: 8px;
+                    margin-bottom: 6px;
+
+                    @media (max-width: 600px) {
+                        margin-top: 20px;
+                    }
+                }
+
+                >h3 {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    margin: 0;
+
+                    >span {
+                        color: $lightGreen;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+
+                    @media (max-width: 600px) {
+                        margin-top: 16px;
+                    }
+                }
+            }
+
+            &-paragraph {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: $black;
+                margin-top: 16px;
+            }
+        }
+
+        &-icon {
+            display: flex;
+            cursor: pointer;
+
+            &-link {
+                >img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                &-image {
+                    margin-right: 16px;
+                }
+            }
+
+            @media (max-width: 600px) {
+                align-self: end;
+            }
+        }
+    }
+}

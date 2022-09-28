@@ -1,0 +1,49 @@
+.mySkill {
+    display: grid;
+    grid-template-areas: "game head head"
+    "game css css"
+    "js js js";
+    margin-bottom: 16px;
+
+    @media (max-width: 1024px) {
+        grid-template-areas: "head"
+        "css"
+        "js";
+    }
+
+    &-header {
+        background: $opacityGray;
+        border-radius: 4px;
+        color: $eggplant;
+        grid-area: head;
+
+        &-heading {
+            margin: 0;
+        }
+    }
+
+    &-game {
+        grid-area: game;
+        display: block;
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    &-item {
+
+        &-header {
+            margin-left: 16px;
+            display: flex;
+        }
+
+        &-css {
+            grid-area: css;
+        }
+
+        &-js {
+            grid-area: js;
+        }
+    }
+}
