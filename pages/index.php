@@ -56,20 +56,20 @@
             </div>
 
             <div id="imgBox">
-                <img class="x hidden item" src="image/xplayer.svg" alt="">
-                <img class="zero hidden item" src="image/zeroplayer.svg" alt="">
-                <img class="x hidden item" src="image/xplayer.svg" alt="">
-                <img class="zero hidden item" src="image/zeroplayer.svg" alt="">
-                <img class="x hidden item" src="image/xplayer.svg" alt="">
-                <img class="zero hidden item" src="image/zeroplayer.svg" alt="">
-                <img class="x hidden item" src="image/xplayer.svg" alt="">
-                <img class="zero hidden item" src="image/zeroplayer.svg" alt="">
-                <img class="x item" src="image/xplayer.svg" alt="">
+                <img class="x hidden item" src="image/xplayer.svg" alt="X">
+                <img class="zero hidden item" src="image/zeroplayer.svg" alt="0">
+                <img class="x hidden item" src="image/xplayer.svg" alt="X">
+                <img class="zero hidden item" src="image/zeroplayer.svg" alt="0">
+                <img class="x hidden item" src="image/xplayer.svg" alt="X">
+                <img class="zero hidden item" src="image/zeroplayer.svg" alt="0">
+                <img class="x hidden item" src="image/xplayer.svg" alt="X">
+                <img class="zero hidden item" src="image/zeroplayer.svg" alt="0">
+                <img class="x item" src="image/xplayer.svg" alt="X">
             </div>
         </div>
         <div class="mySkill-item mySkill-item-css">
             <div class="mySkill-item-header mySkill-item-header-css">
-                <img src="image/ellipse.svg" class="mySkill-item-header-image mySkill-item-header-image-css" alt="">
+                <img src="image/ellipse.svg" class="mySkill-item-header-image mySkill-item-header-image-css" alt="image">
                 <h3 class="mySkill-item-header-heading mySkill-item-header-heading-css">Верстка HTML5 /CSS3</h3>
             </div>
             <p class="mySkill-item-header-paragraph mySkill-item-header-paragraph-css">В рамках изучения верстки, прошла
@@ -81,7 +81,7 @@
         </div>
         <div class="mySkill-item mySkill-item-js">
             <div class="mySkill-item-header mySkill-item-header-js">
-                <img src="image/ellipse.svg" class="mySkill-item-header-image mySkill-item-header-image-js" alt="">
+                <img src="image/ellipse.svg" class="mySkill-item-header-image mySkill-item-header-image-js" alt="image">
                 <h3 class="mySkill-item-header-heading mySkill-item-header-heading-js">JavaScript</h3>
             </div>
             <p class="mySkill-item-header-paragraph mySkill-item-header-paragraph-js">Прошла два курса, базовый и
@@ -89,7 +89,7 @@
                 основы языка, типы данных, методы и функции,
                 области видимости, классы и ассинхронные функции. Знакома с ООП и работой фраемворка Vue JS.
                 <br><br>
-                <a class="mySkill-item-header-link link" href="#">Посмотреть мой код, можно на GitHub.</a>
+                <a class="mySkill-item-header-link link" target="_blank" href="https://github.com/Flukavka">Посмотреть мой код, можно на GitHub.</a>
             </p>
         </div>
     </div>
@@ -108,7 +108,7 @@
             <div class="myWork-card constructor">
                 <div class="imageAnimation">
                     <a href="/work">
-                        <img class="myWork-card-image" src="image/constructor.jpg"></img>
+                        <img class="myWork-card-image" src="image/constructor.jpg" alt="image"></img>
                     </a>
                 </div>
                 <div class="myWork-card-description">
@@ -129,7 +129,7 @@
             <div class="myWork-card shop">
                 <div class="imageAnimation">
                     <a href="/work">
-                        <img class="myWork-card-image" src="image/shop.jpg"></img>
+                        <img class="myWork-card-image" src="image/shop.jpg" alt="image"></img>
                     </a>
                 </div>
                 <div class="myWork-card-description">
@@ -151,7 +151,7 @@
             <div class="myWork-card courses">
                 <div class="imageAnimation">
                     <a href="/work">
-                        <img class="myWork-card-image" src="image/courses.jpg"></img>
+                        <img class="myWork-card-image" src="image/courses.jpg" alt="image"></img>
                     </a>
                 </div>
                 <div class="myWork-card-description">
@@ -172,7 +172,7 @@
             <div class="myWork-card tools">
                 <div class="imageAnimation">
                     <a href="/work">
-                        <img class="myWork-card-image" src="image/tools.jpg"></img>
+                        <img class="myWork-card-image" src="image/tools.jpg" alt="image"></img>
                     </a>
                 </div>
                 <div class="myWork-card-description">

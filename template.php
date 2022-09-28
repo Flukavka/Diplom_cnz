@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-lg navbar-light nav-block">
             <a class="navbar-brand" href="/index">Носарева В.С.</a>
             <button class="navbar-toggler nav-block-button" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
-                <img src="image/navbar.svg" alt="">
+                <img src="image/navbar.svg" alt="menu">
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav nav-block-menu">
@@ -35,10 +35,10 @@
                         <a class="nav-link" href="/index">Главная <span class="sr-only">(текущая)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ml-2" href="#skillsList">Мои навыки</a>
+                        <a class="nav-link ml-2" href="index#skillsList">Мои навыки</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ml-2" href="#contactsList">Контакты</a>
+                        <a class="nav-link ml-2" href="index#contactsList">Контакты</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-block-myWork" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -96,9 +96,9 @@
                         <a href="mailto:nosareva.vs@gmail.com">nosareva.vs@gmail.com</a>
                         <a href="https://hh.ru/resume/fcf8e2a5ff09c5a8e60039ed1f654972676370">headHunter</a>
                         <div class="footerContacts-data-icon">
-                            <a class="git" target="_blank" href=""><img src="image/git.svg" alt="git"></a>
-                            <a class="telegram" target="_blank" href=""><img src="image/telegram.svg" alt="telegram"></a>
-                            <a class="behance" target="_blank" href=""><img src="image/behance.svg" alt="behance"></a>
+                            <a class="git" target="_blank" href="https://github.com/Flukavka"><img src="image/git.svg" alt="git"></a>
+                            <a class="telegram" target="_blank" href="https://t.me/flukavka"><img src="image/telegram.svg" alt="telegram"></a>
+                            <a class="behance" target="_blank" href="https://www.behance.net/nosarevavs582a"><img src="image/behance.svg" alt="behance"></a>
                         </div>
                     </div>
                     <div class="footerContacts-form">

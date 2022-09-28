@@ -19,17 +19,13 @@
                             <br>
                             <br>
                             В настоящий момент сайт в состоянии разработки, но промежуточные работы можно посмотреть,
-                            перейдя по &nbsp<a class="link" target="_blank"
-                                href="portfolio/constructor/index.html">ссылке на проект</a>.
+                            перейдя по &nbsp<a class="link" target="_blank" href="portfolio/constructor/index.html">ссылке на проект</a>.
                         </p>
                     </div>
                 </div>
                 <div class="work-card-icon">
-                    <a class="work-card-icon-link" target="_blank" href=""><img class="work-card-icon-link-image"
-                            src="image/git.svg" alt="icon"></a>
-                    <a class="work-card-icon-link" target="_blank"
-                        href="https://www.behance.net/gallery/84388825/konstruktor"><img src="image/behance.svg"
-                            alt=""></a>
+                    <a class="work-card-icon-link" target="_blank" href="https://github.com/Flukavka/Diplom_cnz/tree/main/portfolio/constructor"><img class="work-card-icon-link-image" src="image/git.svg" alt="icon"></a>
+                    <a class="work-card-icon-link" target="_blank" href="https://www.behance.net/gallery/84388825/konstruktor"><img src="image/behance.svg" alt="icon"></a>
                 </div>
             </div>
             <!-- work-card-1 end -->
@@ -37,11 +33,11 @@
             <!-- work-card-2 start -->
             <div class="work-card">
                 <div class="work-card-image">
-                    <img src="image/myWork/tools.jpg" alt="">
+                    <img src="image/myWork/tools.jpg" alt="image">
                 </div>
                 <div class="work-card-description">
                     <div class="work-card-description-head">
-                        <img src="image/ellipse.svg" alt="">
+                        <img src="image/ellipse.svg" alt="image">
                         <h3>Рекламный сайт <span>—</span> инструменты автоматизации</h3>
                     </div>
                     <div class="work-card-description-paragraph">
@@ -49,13 +45,12 @@
                             период обучения у них.
                             <br>
                             <br>
-                            Можно посмотреть по &nbsp<a class="link" target="_blank"
-                                href="portfolio/tools/index.html">ссылке на проект</a>.
+                            Можно посмотреть по &nbsp<a class="link" target="_blank" href="portfolio/tools/index.html">ссылке на проект</a>.
                         </p>
                     </div>
                 </div>
                 <div class="work-card-icon">
-                    <a class="work-card-icon-link" target="_blank" href=""><img src="image/git.svg" alt="icon"></a>
+                    <a class="work-card-icon-link" target="_blank" href="https://github.com/Flukavka/Diplom_cnz/tree/main/portfolio/tools"><img src="image/git.svg" alt="icon"></a>
                 </div>
             </div>
             <!-- work-card-2 end -->
@@ -63,11 +58,11 @@
             <!-- work-card-3 start -->
             <div class="work-card">
                 <div class="work-card-image">
-                    <img src="image/myWork/shop.jpg" alt="">
+                    <img src="image/myWork/shop.jpg" alt="image">
                 </div>
                 <div class="work-card-description">
                     <div class="work-card-description-head">
-                        <img src="image/ellipse.svg" alt="">
+                        <img src="image/ellipse.svg" alt="image">
                         <h3>Сайт для продажи одежды</h3>
                     </div>
                     <div class="work-card-description-paragraph">
@@ -75,13 +70,12 @@
                             При вёрстке использовала flex и grid.
                             <br>
                             <br>
-                            Можно посмотреть по &nbsp<a class="link" target="_blank"
-                                href="portfolio/shop/index.html">ссылке на проект</a>.
+                            Можно посмотреть по &nbsp<a class="link" target="_blank" href="portfolio/shop/index.html">ссылке на проект</a>.
                         </p>
                     </div>
                 </div>
                 <div class="work-card-icon">
-                    <a class="work-card-icon-link" target="_blank" href=""><img src="image/git.svg" alt="icon"></a>
+                    <a class="work-card-icon-link" target="_blank" href="https://github.com/Flukavka/Diplom_cnz/tree/main/portfolio/shop"><img src="image/git.svg" alt="icon"></a>
                 </div>
             </div>
             <!-- work-card-3 end -->
@@ -89,11 +83,11 @@
             <!-- work-card-4 start -->
             <div class="work-card">
                 <div class="work-card-image">
-                    <img src="image/myWork/courses.jpg" alt="">
+                    <img src="image/myWork/courses.jpg" alt="image">
                 </div>
                 <div class="work-card-description">
                     <div class="work-card-description-head">
-                        <img src="image/ellipse.svg" alt="">
+                        <img src="image/ellipse.svg" alt="image">
                         <h3>Лэндинг <span>—</span> платформа для обучения инностранных языков</h3>
                     </div>
                     <div class="work-card-description-paragraph">
@@ -101,13 +95,12 @@
                             При вёрстке основной упор делала на использование grid.
                             <br>
                             <br>
-                            Можно посмотреть по &nbsp<a class="link" target="_blank"
-                                href="portfolio/courses/index.html">ссылке на проект</a>.
+                            Можно посмотреть по &nbsp<a class="link" target="_blank" href="portfolio/courses/index.html">ссылке на проект</a>.
                         </p>
                     </div>
                 </div>
                 <div class="work-card-icon">
-                    <a class="work-card-icon-link" target="_blank" href=""><img src="image/git.svg" alt="icon"></a>
+                    <a class="work-card-icon-link" target="_blank" href="https://github.com/Flukavka/Diplom_cnz/tree/main/portfolio/courses"><img src="image/git.svg" alt="icon"></a>
                 </div>
             </div>
             <!-- work-card-4 end -->
