@@ -318,6 +318,10 @@ body {
 
                 @media (max-width: 600px) {
                     max-width: 500px;
+
+                    &-css {
+                        margin: 15px 0 0;
+                    }
                 }
 
                 @media (max-width: 320px) {

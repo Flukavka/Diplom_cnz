@@ -46,14 +46,14 @@ for (let player of players) {
           i = i++;
           imgEl[i].classList.remove("hidden");
 
-          checkWinner();
+          /* checkWinner(); */
         }
       });
     };
 
     function moveElement(event) {
-      let x = event.clientX - 25;
-      let y = event.clientY - 25;
+      let x = event.pageX - 25;
+      let y = event.pageY - 25;
 
       player.style.top = y + "px";
       player.style.left = x + "px";
@@ -65,7 +65,7 @@ for (let player of players) {
   };
 }
 
-function checkWinner() {
+/* function checkWinner() {
   //x
   let i = 0;
   let arrItem = [];
@@ -108,7 +108,7 @@ function checkWinner() {
     }
   }
   //y
-}
+} */
 
 function getRandom(min, max) {
   return Math.round(Math.random() * (max - min) + min);

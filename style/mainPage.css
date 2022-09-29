@@ -882,6 +882,9 @@ body {
   .mySkill-item-header-paragraph {
     max-width: 500px;
   }
+  .mySkill-item-header-paragraph-css {
+    margin: 15px 0 0;
+  }
 }
 @media (max-width: 320px) {
   .mySkill-item-header-paragraph {
