@@ -16,7 +16,7 @@
 }
 @media (max-width: 1024px) {
   .nav-block {
-    padding: 8px 0;
+    padding: 8px 8px;
   }
 }
 @media (max-width: 768px) {
@@ -26,7 +26,7 @@
 }
 @media (max-width: 320px) {
   .nav-block {
-    padding: 0 1px;
+    padding: 8px 1px;
   }
 }
 .nav-block-myWork {
@@ -41,6 +41,9 @@
 }
 .nav-block-button {
   border: none;
+}
+.nav-block-brand {
+  margin: 0;
 }
 
 .dropdown-toggle::after {
@@ -180,15 +183,13 @@
   color: #4F7455;
 }
 
-.carousel-block {
-  margin-left: 14px;
-}
-@media (max-width: 320px) {
-  .carousel-block {
-    margin-left: 0;
-  }
-}
+/* .carousel-block {
+    margin-left: 14px;
 
+    @media (max-width: 320px) {
+        margin-left: 0;
+    }
+} */
 .myWork {
   margin-top: 74px;
   margin-bottom: 90px;

@@ -23,9 +23,9 @@
 <body>
 
     <!-- header start -->
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light nav-block">
-            <a class="navbar-brand" href="/index">Носарева В.С.</a>
+    <header>
+        <nav class="container navbar navbar-expand-lg navbar-light nav-block">
+            <a class="navbar-brand nav-block-brand" href="/index">Носарева В.С.</a>
             <button class="navbar-toggler nav-block-button" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
                 <img src="image/navbar.svg" alt="menu">
             </button>

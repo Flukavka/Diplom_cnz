@@ -14,7 +14,7 @@
     padding: 8px 8px;
 
     @media (max-width: 1024px) {
-        padding: 8px 0;
+        padding: 8px 8px;
     }
 
     @media (max-width: 768px) {
@@ -22,7 +22,7 @@
     }
 
     @media (max-width: 320px) {
-        padding: 0 1px;
+        padding: 8px 1px;
     }
 
     &-myWork {
@@ -40,6 +40,10 @@
 
     &-button {
         border: none;
+    }
+
+    &-brand {
+        margin: 0;
     }
 }
 
