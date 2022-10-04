@@ -1,0 +1,20 @@
+.mainButton {
+    background: linear-gradient(283.77deg, #C82020 -30.57%, #2717CF 88.6%);
+    box-shadow: 0px 2px 4px rgba(108, 87, 84, 0.25);
+    border-radius: 20px;
+    border: none;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 10px 45px;
+    cursor: pointer;
+
+    @media(max-width: 1024px) {
+        font-weight: 400;
+        line-height: 20px;
+        padding: 10px 28px;
+    }
+}

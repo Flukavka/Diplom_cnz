@@ -1,0 +1,35 @@
+.b-headerBlock {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_right {
+        display: flex;
+        align-items: center;
+
+        &__email {
+            margin-right: 40px;
+
+            @media (max-width: 375px) {
+                margin-right: 16px;
+            }
+        }
+    }
+
+    @media(max-width: 1268.9px) {
+        padding: 0 32px;
+        box-sizing: border-box;
+    }
+
+    @media (max-width: 375px) {
+
+        &_right,
+        &_left {
+            >a>img {
+                max-width: 24px;
+                max-height: 100%;
+            }
+        }
+    }
+}
