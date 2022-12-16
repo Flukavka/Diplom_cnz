@@ -1,0 +1,20 @@
+.main-content {
+    display: flex;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+
+    :not(:last-child) {
+        margin-right: 20px;
+    }
+
+    &-paragraph {
+        rotate: 90deg;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}

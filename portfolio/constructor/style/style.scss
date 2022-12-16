@@ -237,7 +237,13 @@ body {
                 >option {
                     font-family: inherit;
                     font-size: inherit;
+                    padding: 8px;
                 }
+            }
+
+            >select:focus-visible {
+                border: none;
+                outline: none;
             }
 
         }

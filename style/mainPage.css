@@ -175,11 +175,14 @@
 }
 
 .link {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #86BB8F;
   color: #86BB8F;
 }
 
 .link:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #4F7455;
   color: #4F7455;
 }
 
@@ -214,7 +217,7 @@
 .myWork-card {
   width: 500px;
   height: 292px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(148, 149, 151, 0.05);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.04);
   border-radius: 4px;
@@ -264,6 +267,7 @@
 .myWork-card-description-link {
   font-size: 14px;
   line-height: 17px;
+  align-self: start;
 }
 .myWork-wrapper-card {
   display: grid;
@@ -575,6 +579,14 @@
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+*::-moz-selection {
+  background-color: #86BB8F;
+}
+
+*::selection {
+  background-color: #86BB8F;
 }
 
 .main-block {

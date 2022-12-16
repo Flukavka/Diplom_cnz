@@ -1,23 +1,23 @@
 <!-- carousel start -->
 
 <!-- <div class="row"> -->
-    <div class="container header">
-        <div class="col-sm-4 mt-2">
-            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-block" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="image/slide1.jpg" class="d-block w-100 carousel-img" alt="photo slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="image/slide2.jpg" class="d-block w-100 carousel-img" alt="photo slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="image/slide3.jpg" class="d-block w-100 carousel-img" alt="photo slide">
-                    </div>
+<div class="container header">
+    <div class="col-sm-4 mt-2">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-block" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/slide1.jpg" class="d-block w-100 carousel-img" alt="photo slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/slide2.jpg" class="d-block w-100 carousel-img" alt="photo slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/slide3.jpg" class="d-block w-100 carousel-img" alt="photo slide">
                 </div>
             </div>
         </div>
     </div>
+</div>
 <!-- </div> -->
 <!-- carousel end -->
 

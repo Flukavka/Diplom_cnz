@@ -1,0 +1,13 @@
+.description {
+    display: flex;
+
+    &-paragraph {
+        margin-left: 32px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #FFC178;
+    }
+}

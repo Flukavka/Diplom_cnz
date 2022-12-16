@@ -1,8 +1,11 @@
 .link {
-    text-decoration: underline;
-    color: $lightGreen;
+  text-decoration: none;
+  border-bottom: 1px solid $lightGreen;
+  color: $lightGreen;
 }
 
 .link:hover {
-    color: $darkGreen;
+  text-decoration: none;
+  border-bottom: 1px solid $darkGreen;
+  color: $darkGreen;
 }

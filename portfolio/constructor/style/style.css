@@ -271,6 +271,11 @@ body {
 .b-chat_up__chapter > select > option {
   font-family: inherit;
   font-size: inherit;
+  padding: 8px;
+}
+.b-chat_up__chapter > select:focus-visible {
+  border: none;
+  outline: none;
 }
 .b-chat_bottom {
   display: grid;
